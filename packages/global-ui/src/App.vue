@@ -1,18 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Global UI"/>
+    Global UI
+    <br>
+    <v-button label="New VButton" icon="mdi-light:home"></v-button>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import VButton from './components/VButton.vue';
 
 export default {
+  components: { VButton },
   name: 'App',
-  components: {
-    HelloWorld,
-  },
 };
 </script>
 
