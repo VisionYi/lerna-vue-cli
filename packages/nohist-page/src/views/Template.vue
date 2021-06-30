@@ -10,11 +10,7 @@ import { VButton } from '@vision/global-ui';
 
 export default {
   components: {
-    VButton
-  }
-}
+    VButton,
+  },
+};
 </script>
-
-<style>
-
-</style>
