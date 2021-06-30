@@ -9,7 +9,7 @@
 
 <script>
 // @ is an alias to /src
-import { VButton } from 'global-ui';
+import { VButton } from '@vision/global-ui';
 import HelloWorld from '../components/HelloWorld.vue';
 
 export default {
